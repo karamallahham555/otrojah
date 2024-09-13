@@ -1,0 +1,61 @@
+name: admins
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.1 <4.0.0"
+
+
+dependencies:
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  flutter_screenutil: ^5.9.1
+  scrollable_positioned_list:
+  multi_select_flutter:
+  equatable:
+  
+
+  flutter_bloc:
+  intl:
+  dio:
+  get_it: ^7.7.0
+  image_picker:
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+
+
+
+
+  fonts:
+    - family: DIN Next LT Arabic
+      fonts:
+        - asset: assets/fonts/DINNextLTArabic-Bold-4.ttf
+        - asset: assets/fonts/DINNextLTArabic-Heavy2-1.ttf
+        - asset: assets/fonts/DINNEXTLTARABIC-LIGHT-2-2.ttf
+        - asset: assets/fonts/DINNextLTArabic-Medium-4.ttf
+        - asset: assets/fonts/DINNextLTArabic-Regular-3.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

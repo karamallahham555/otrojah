@@ -1,0 +1,47 @@
+class Routes {
+  static const String homePage = '/HomePage';
+  static const String showStudents = '/ShowStudents';
+  static const String addStudent = "/addStudent";
+  static const String editStudentInfo = "/editStudentInfo";
+  static const String studentDetails = "/studentDetails";
+  static const String addGroup = "/addGroup";
+  static const String addParents = "/addParents";
+  static const String addStaff = "/addStaff";
+  static const String question = "/question";
+  static const String login = "/";
+  static const String home = "/home";
+  static const String checkStudents = "/checkStudents";
+  static const String checkGroups = "/checkGroups";
+  static const String addStudentToGroup = "/addStudentToGroup";
+  static const String groupStudents = "/groupStudents";
+  static const String groups = "/groups";
+  static const String showAuthorizedAdmins = "/showAuthorizedAdmins";
+  static const String showPermissions = "/showPermissions";
+  static const String addActivity = "/addActivity";
+  static const String activity = "/activity";
+  static const String showSubject = "/ShowSubject";
+  static const String tasmeaa = "/tasmeaa";
+  static const String showStudentsRecite = "/showStudentsRecite";
+  static const String showCourses = "/ShowCourses";
+  static const String addCourses = "/AddCourses";
+  static const String showLevels = "/showLevels";
+  static const String subjectOrGroup = "/subjectOrGroup";
+  static const String managemet = "/managemet";
+  static const String showParents = "/showParents";
+  static const String showStaff = "/showStaff";
+  static const String studentPoints = "/studentPoints";
+  static const String studentAbsencsByGroup = "/studentAbsencsByGroup";
+  static const String studentAbsencsForGroup = "/studentAbsencsForGroup";
+  static const String questionBank = "/questionBank";
+  static const String createExam = "/CreateExam";
+  static const String showExams = "/ShowExam";
+  static const String examDetails = "/ExamDetails";
+  static const String questionUser = "/QuestionUser";
+  static const String examQuestion = "/ExamQuestion";
+  static const String announcementPage = "/AnnouncementPage";
+  static const String createStandard = "/CreateStandard";
+  static const String addStandardGroup = "/addStandardGroup";
+  static const String studentPointsScreen = "/StudentPointsScreen";
+  static const String showStandard = "/ShowStandard";
+
+}
